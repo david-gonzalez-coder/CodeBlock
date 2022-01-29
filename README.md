@@ -3,7 +3,7 @@
 if you want to insert example code in your page, this component will help you
 
 ## Demo
-![Screenshot](Capture.PNG)
+![Screenshot](assets/Capture.PNG)
 
 ## installation
 
@@ -22,7 +22,7 @@ then clone CodeBlock.jsx
 <CodeBlock language="bash" code={`insert code here`} />
 ```
 ## style
-you can change the theme modifing the file CodeBlock.jsx, in the top of the document you will found:
+you can change the theme modifing the file CodeBlock.jsx, in the top of the document you will find:
 ```jsx 
 //theme
   import PrismTheme from "prism-react-renderer/themes/nameOfTheme";
@@ -37,18 +37,38 @@ you can use the following themes
 7. oceanicNext
 8. ultramin
 9. shadesOfPurple
-10. vsDark
+10. vsDark <br />
 also you can style this component with the following classes: <br />
-1. codeBlock__pre<br />
-2. codeBlock__link<br />
-3. codeBlock__icon<br />
+codeBlock__pre<br />
+codeBlock__link<br />
+codeBlock__icon<br />
 but in this case you will be limited by the theme, i.e. you will only be able to modify the properties that the theme does not modify, for example you can change the padding, the margin, etc.
 
 ## About
- I have extracted this code from react icons with the intention of facilitating the use of this component, since when i want to style 
+ I have extracted this code from react icons with the intention of facilitating the use of this component, since when i wanted to style 
  ```html
 <pre> </pre> and <code> </code>
  ```
   I realized that it was more difficult than expected.
 
-
+## Themes
+### dracula
+![Screenshot](assets/dracula.PNG)
+### duotoneDark
+![Screenshot](assets/duotoneDark.PNG)
+### duotoneLight
+![Screenshot](assets/duotoneLight.PNG)
+### github
+![Screenshot](assets/github.PNG)
+### nightOwl
+![Screenshot](assets/nightOwl.PNG)
+### nightOwlLight
+![Screenshot](assets/nightOwlLight.PNG)
+### oceanicNext
+![Screenshot](assets/oceanicNext.PNG)
+### ultramin
+![Screenshot](assets/ultramin.PNG)
+### shadesOfPurple
+![Screenshot](assets/shadesOfPurple.PNG)
+### vsDark
+![Screenshot](assets/vsDark .PNG)
