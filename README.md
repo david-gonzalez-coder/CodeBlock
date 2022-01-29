@@ -71,4 +71,4 @@ but in this case you will be limited by the theme, i.e. you will only be able to
 ### shadesOfPurple
 ![Screenshot](assets/shadesOfPurple.PNG)
 ### vsDark
-![Screenshot](assets/vsDark .PNG)
+![Screenshot](assets/vsDark.PNG)
